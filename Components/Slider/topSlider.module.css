@@ -1,0 +1,42 @@
+.slidesBox {
+  width: 100%;
+  height: 400px;
+}
+.sideMenu {
+  padding: 10px;
+}
+.sideMenuStack {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sideMenuStack div {
+  padding: 6px 10px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.fb {
+  background-color: rgb(27, 94, 202);
+}
+.fb:hover,
+.tw:hover,
+.li:hover,
+.in:hover,
+.yt:hover {
+  opacity: 0.8;
+}
+.tw {
+  background-color: rgb(114, 217, 255);
+}
+.li {
+  background-color: rgb(44, 70, 117);
+}
+.in {
+  background-color: rgb(189, 114, 255);
+}
+.yt {
+  background-color: rgb(235, 10, 10);
+}

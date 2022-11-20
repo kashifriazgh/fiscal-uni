@@ -1,0 +1,26 @@
+.menuitem {
+  padding: 7px 10px;
+  font-size: large;
+  color: rgb(12, 113, 186);
+  font-weight: bold;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.menuitem:hover {
+  border: 1px solid rgb(228, 211, 211);
+  box-sizing: border-box;
+}
+.dropdownul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.dropdownul li {
+  font-size: large;
+  padding-bottom: 6px;
+  color: rgb(12, 113, 186);
+  text-align: left;
+  cursor: pointer;
+}

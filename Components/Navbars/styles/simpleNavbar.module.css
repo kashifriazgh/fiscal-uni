@@ -1,0 +1,80 @@
+.navbar {
+  width: 100%;
+  background-color: #282a35;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  width: inherit;
+}
+.item {
+  padding: 8px 17px;
+  cursor: pointer;
+}
+.item:hover {
+  background: rgb(104, 215, 52);
+}
+@media (max-width: 680px) {
+  .list {
+    flex-direction: column;
+    margin-top: 35px;
+    width: 100%;
+    flex-direction: column;
+    display: none;
+  }
+}
+.show {
+  display: block;
+}
+.rightmenu {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+}
+@media (max-width: 680px) {
+  .rightmenu {
+    display: none;
+  }
+}
+
+.toggler {
+  align-self: flex-end;
+  display: none;
+}
+@media (max-width: 680px) {
+  .toggler {
+    display: block;
+  }
+}
+
+.mobMenu {
+  background-color: rgb(28, 27, 27);
+}
+.mobMenuList {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+  display: none;
+}
+.show {
+  display: block;
+}
+
+@media (min-width: 680px) {
+  .mobMenuList {
+    display: none;
+  }
+}

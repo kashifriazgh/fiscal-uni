@@ -1,0 +1,96 @@
+.logo {
+  width: 140px;
+  height: inherit;
+  overflow: hidden;
+}
+.menu {
+  height: inherit;
+  padding: 0px 20px;
+  line-height: 60px;
+  align-self: end;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.menu:hover {
+  background: rgb(50, 117, 68);
+  color: white;
+}
+.active {
+  background: #282a35;
+  color: white;
+}
+.active:hover {
+  background: #282a35;
+  color: white;
+}
+.menu .rotate {
+  transform: rotate(90deg);
+  transition: 0.4s all;
+}
+
+.collapsedMenu {
+  position: absolute;
+  z-index: 999;
+  top: 128px;
+  width: 100%;
+  background: #282a35;
+  color: white;
+  min-height: 100vh;
+  transition: 0.2s all;
+  display: none;
+}
+.collapsedMenuActive {
+  display: block;
+}
+.collapsedMenuTitle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.collapsedMenuTitleText {
+  float: left;
+  padding: 16px 0px 16px 16px;
+  color: #fff4a3;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.collapseClose {
+  text-align: center;
+  float: right;
+  width: 84px;
+  height: 88px;
+  font-size: x-large;
+  box-sizing: border-box;
+  color: white;
+  line-height: 84px;
+  vertical-align: middle;
+}
+.collapseClose:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.sectionHeading {
+  color: #fff4a3;
+  font-weight: 600;
+}
+.sectionHeadingExtended {
+  width: 200px;
+  color: rgb(59, 53, 53);
+  background: #fff4a3;
+  border-radius: 5px;
+  padding: 7px 30px;
+}
+.collapseMenuItem {
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+.collapseMenuItem:hover {
+  background: gainsboro;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.tippy-box[data-state='visible'] {
+  box-shadow: none;
+}
+.h2 {
+  background-color: red;
+}

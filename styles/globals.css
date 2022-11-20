@@ -24,3 +24,6 @@ a {
     background: black;
   }
 }
+.tippy-box[data-state='visible'] {
+  box-shadow: none;
+}
