@@ -46,6 +46,7 @@ export default function W3SchoolNavbar() {
               >
                 {item.title}
                 <div
+                  className="hide-xs"
                   style={{
                     display: 'inline-block',
                     verticalAlign: 'middle',

@@ -1,0 +1,43 @@
+@keyframes news {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  position: relative;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  padding: 10px 0px;
+}
+.marqueeWrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  white-space: nowrap;
+  animation: news 45s linear infinite;
+}
+.breakAnimation {
+  animation-play-state: paused;
+}
+.marqueeItem {
+  min-width: 300px;
+  padding: 20px;
+  display: inline-block;
+  font-size: x-large;
+}
+.newBadge {
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px yellow;
+  font-size: 50%;
+}
+.link {
+  color: rgb(73, 163, 223);
+}

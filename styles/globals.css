@@ -27,3 +27,10 @@ a {
 .tippy-box[data-state='visible'] {
   box-shadow: none;
 }
+
+@media (max-width: 600px) {
+  .hide-xs {
+    visibility: hidden;
+    display: none;
+  }
+}

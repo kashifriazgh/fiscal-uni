@@ -8,6 +8,9 @@ import DropDownNavbar from '../Components/Navbars/DropDownNavbar';
 import W3SchoolNavbar from '../Components/Navbars/W3SchoolNavbar';
 import TopSlider from '../Components/Slider/TopSlider';
 import NewsBelt from '../Components/Marque/NewsBelt';
+import EventsAndNews from '../Components/EventsAndNews';
+import Programs from '../Components/Programs';
+import Footer from '../Components/Footer';
 
 export default function Home() {
   return (
@@ -17,9 +20,13 @@ export default function Home() {
       <SimpleNavbar />
       <TopSlider />
       <NewsBelt />
+      <EventsAndNews />
       <br />
-      <h2>Hello , I am testing</h2>
-      <h3>hey another one line</h3>
+      <br />
+      <br />
+      <Programs />
+      <br />
+      <Footer />
     </>
   );
 }

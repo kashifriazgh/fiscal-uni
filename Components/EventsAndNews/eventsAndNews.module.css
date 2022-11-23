@@ -1,0 +1,56 @@
+.sectionHeading {
+  color: rgb(255, 149, 0);
+  font-size: 200%;
+}
+.eventImg {
+  width: 100%;
+  overflow: hidden;
+}
+.eventTitle {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(60, 175, 232);
+  font-weight: bold;
+}
+.eventDesc {
+  padding: 5px;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+/**************** Latest News **********************/
+.latestNewsWrapper {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.newsTitle {
+  background-color: rgb(66, 56, 51);
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newsDesc {
+  margin-top: 5px;
+  font-size: 17px;
+  color: rgb(71, 69, 69);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newsLink {
+  color: rgb(24, 124, 231);
+  font-weight: bold;
+}
+.readMoreBtn {
+  padding: 15px 20px;
+  background: rgb(255, 149, 0);
+  border-radius: 3px;
+  color: white;
+  float: right;
+  margin-right: 25px;
+  font-size: large;
+  cursor: pointer;
+}
+.readMoreBtn:hover {
+  background: rgb(202, 119, 3);
+}

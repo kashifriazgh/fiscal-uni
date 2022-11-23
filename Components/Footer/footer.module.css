@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  min-height: 400px;
+}
+.footerHeader {
+  width: 100%;
+  background: rgb(56, 54, 54);
+  height: 70px;
+}
+.footerHeaderTitle {
+  color: white;
+  font-size: x-large;
+}
+.sectionHeading {
+  font-size: 21px;
+}
+.footerItem {
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 25px;
+}
